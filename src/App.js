@@ -1,11 +1,12 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import {Jumbotron, Container, Navbar, Button, Row, Col, Card, CardGroup} from 'react-bootstrap';
+import {Jumbotron, Container, Navbar, Button, Row, Col, Card, CardGroup, Image} from 'react-bootstrap';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGraduationCap, faHandshake, faHandHoldingUsd } from '@fortawesome/free-solid-svg-icons'
 
+import aboutusthumbnail from "./assets/bgvision.png"
 import jumbobg from "./assets/bglandingpage.jpg";
 import logo from "./assets/SVILogoUpdatedColours.svg";
 
@@ -78,6 +79,26 @@ function App() {
           </div>
         </Container>
     </Jumbotron>
+    <Container fluid id="svi-aboutus">
+      <Row>
+        <Col>
+          <div className="svi-section-header">
+            <h1>About Us</h1>
+          </div>
+        </Col>
+      </Row>
+      <Row>
+        <Col xs={12} md={6}>
+          <div id="svi-aboutus-thumbnail">
+            <Image src={aboutusthumbnail} thumbnail />
+          </div>
+        </Col>
+        <Col>
+        {/* 100 Words */}
+          <p id="svi-aboutus-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultrices arcu at velit ultrices suscipit sed suscipit ipsum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec eu viverra turpis, sit amet auctor elit. Sed sit amet ante fermentum massa fermentum consectetur. Vivamus ultrices at elit at fringilla. Nulla in arcu massa. Quisque fermentum, lectus sed tristique lacinia, felis ipsum maximus arcu, id volutpat arcu ex quis justo. Fusce iaculis nisl lacus, efficitur egestas nunc vulputate at. Etiam nec commodo mi, in auctor erat. Fusce aliquet nulla tellus, nec molestie diam lacinia at. Aliquam luctus.</p>
+        </Col>
+      </Row>
+    </Container>
     <Container fluid id="svi-testimonials-container">
       <Row>
         <Col>
@@ -134,7 +155,6 @@ function App() {
         </Col>
       </Row>
     </Container>
-
     </div>
   );
 }

@@ -59,3 +59,13 @@
 .svi-testimonial{
   border: none;
 }
+
+#svi-aboutus-text{
+  text-align: center;
+}
+
+#svi-aboutus{
+  align-content:center;
+  align-items:center;
+  text-align: center;
+}
