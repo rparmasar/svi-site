@@ -74,7 +74,7 @@ function App() {
         <Container>
           <div id="svi-vision-jumbo-text">
             <h1>Our Vision</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ac molestie est. In venenatis congue metus venenatis placerat. Sed lacinia dictum finibus. Quisque eu ligula est. Vivamus ac orci sit amet metus hendrerit tempor. Vestibulum sed condimentum est, a auctor.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rhoncus est eu ligula dictum sollicitudin. Suspendisse ut ligula sed quam hendrerit rutrum eget cursus nibh. Sed vitae lectus non nisi convallis ullamcorper. Mauris suscipit arcu fringilla ex hendrerit, vel facilisis leo mattis. Nam ac erat sed purus fringilla aliquet accumsan a mi. In auctor, purus ac tincidunt consequat, enim turpis.</p>
             
           </div>
         </Container>
