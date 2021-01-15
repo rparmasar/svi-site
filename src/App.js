@@ -75,10 +75,66 @@ function App() {
           <div id="svi-vision-jumbo-text">
             <h1>Our Vision</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rhoncus est eu ligula dictum sollicitudin. Suspendisse ut ligula sed quam hendrerit rutrum eget cursus nibh. Sed vitae lectus non nisi convallis ullamcorper. Mauris suscipit arcu fringilla ex hendrerit, vel facilisis leo mattis. Nam ac erat sed purus fringilla aliquet accumsan a mi. In auctor, purus ac tincidunt consequat, enim turpis.</p>
-            
           </div>
         </Container>
     </Jumbotron>
+    <Container fluid id="svi-testimonials-container">
+      <Row>
+        <Col>
+          <div className="svi-section-header">
+            <h1>Our Customers</h1>
+          </div>
+        </Col>
+      </Row>
+      <Row>
+        <Col md={4}>
+          <Card>
+              <Card.Body>
+                <blockquote className="blockquote mb-0 svi-testimonial">
+                  <p>
+                    {' '}
+                    SV Investments got me ROI of 20% from a joint venturing project in April 2020. Their exceptional service made the entire process enjoyable even during the pandemic.{' '}
+                  </p>
+                  <footer className="blockquote-footer">
+                    Rajeev
+                  </footer>
+                </blockquote>
+              </Card.Body>
+          </Card>
+        </Col>
+        <Col md={4}>
+        <Card>
+              <Card.Body>
+                <blockquote className="blockquote mb-0 svi-testimonial">
+                  <p>
+                    {' '}
+                    SV Investments got me ROI of 20% from a joint venturing project in April 2020. Their exceptional service made the entire process enjoyable even during the pandemic.{' '}
+                  </p>
+                  <footer className="blockquote-footer">
+                    Rajeev
+                  </footer>
+                </blockquote>
+              </Card.Body>
+          </Card>
+        </Col>
+        <Col md={4}>
+        <Card>
+              <Card.Body>
+                <blockquote className="blockquote mb-0 svi-testimonial">
+                  <p>
+                    {' '}
+                    SV Investments got me ROI of 20% from a joint venturing project in April 2020. Their exceptional service made the entire process enjoyable even during the pandemic.{' '}
+                  </p>
+                  <footer className="blockquote-footer">
+                    Rajeev
+                  </footer>
+                </blockquote>
+              </Card.Body>
+          </Card>
+        </Col>
+      </Row>
+    </Container>
+
     </div>
   );
 }
