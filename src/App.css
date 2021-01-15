@@ -1,4 +1,26 @@
 *{
+  font-family: "Quicksand", sans-serif;
   margin: 0;
   padding: 0;
+}
+
+.jumbotron {
+  background-image: url("./assets/bglandingpage.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #f0f0f0;
+  width: 100vw;
+  height: 60vh;
+  display:flex;
+  align-content:center;
+  justify-items:center;
+  align-items:center;
+  text-align: center;
+}
+
+#svi-nav{
+  background-color: #1b1c1e;
+  position: sticky;
+  top: 0;
+  padding-left: 2%;
 }
