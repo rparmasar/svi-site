@@ -25,7 +25,7 @@ function App() {
      </Navbar>
      <Jumbotron fluid>
         <Container>
-          <div id="svi-jumbo-text">
+          <div id="svi-cover-jumbo-text">
             <h1>We help our investors secure their financial futures through real estate.</h1>
             <br></br>
             <p>
@@ -70,6 +70,15 @@ function App() {
         </Col>
       </Row>
     </Container>
+    <Jumbotron fluid id="svi-vision-jumbo">
+        <Container>
+          <div id="svi-vision-jumbo-text">
+            <h1>Our Vision</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ac molestie est. In venenatis congue metus venenatis placerat. Sed lacinia dictum finibus. Quisque eu ligula est. Vivamus ac orci sit amet metus hendrerit tempor. Vestibulum sed condimentum est, a auctor.</p>
+            
+          </div>
+        </Container>
+    </Jumbotron>
     </div>
   );
 }

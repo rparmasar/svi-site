@@ -19,6 +19,10 @@
   margin-bottom: 0 !important;
 }
 
+#svi-vision-jumbo{
+  background-image: url("./assets/bgskyscrapers.jpg");
+}
+
 #svi-nav{
   background-color: #1b1c1e;
   position: sticky;
