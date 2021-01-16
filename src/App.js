@@ -1,7 +1,7 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import {Jumbotron, Container, Navbar, Button, Row, Col, Card, CardGroup, Image} from 'react-bootstrap';
+import {Jumbotron, Container, Navbar, Button, Row, Col, Card, CardGroup, Image, Nav, NavDropdown} from 'react-bootstrap';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGraduationCap, faHandshake, faHandHoldingUsd } from '@fortawesome/free-solid-svg-icons'
@@ -13,17 +13,28 @@ import logo from "./assets/SVILogoUpdatedColours.svg";
 function App() {
   return (
     <div className="App">
-     <Navbar id="svi-nav" sticky="top">
-        <Navbar.Brand href="#home">
-          <img
-            src={logo}
-            width="70"
-            height="70"
-            className="d-inline-block align-top"
-            alt="SVI logo"
-          />
-        </Navbar.Brand>
-     </Navbar>
+     <div className="svi-nav-wrapper">
+        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" id="svi-nav" sticky="top">
+            <Navbar.Brand href="#home">
+              <img
+                src={logo}
+                width="70"
+                height="30"
+                className="d-inline-block align-top"
+                alt="React Bootstrap logo"
+              />
+            </Navbar.Brand>
+            <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+            <Navbar.Collapse id="responsive-navbar-nav">
+            <Nav className="mr-auto">
+              <Nav.Link href="#svi-services-container">Our Services</Nav.Link>
+              <Nav.Link href="#svi-vision-jumbo">Our Vision</Nav.Link>
+              <Nav.Link href="#svi-vision-jumbo">About Us</Nav.Link>
+              <Nav.Link href="#svi-vision-jumbo">Our Customers</Nav.Link>
+            </Nav>
+            </Navbar.Collapse>
+        </Navbar>
+     </div>
      <Jumbotron fluid>
         <Container>
           <div id="svi-cover-jumbo-text">
