@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+body{
+  overflow-x: hidden;
+}
+
 .jumbotron {
   background-image: url("./assets/bglandingpage.jpg");
   background-size: cover;
@@ -68,4 +72,19 @@
   align-content:center;
   align-items:center;
   text-align: center;
+}
+
+#svi-footer{
+  background-color: #1b1c1e;
+  color: #f0f0f0;
+  width: 100vw;
+  align-content:center;
+  align-items:center;
+  text-align: center;
+}
+
+#svi-footer-copyright-text{
+  padding-top: 5%;
+  line-height: 0.5;
+  color: #6c757d;
 }

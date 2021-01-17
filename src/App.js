@@ -1,7 +1,7 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import {Jumbotron, Container, Navbar, Button, Row, Col, Card, CardGroup, Image, Nav, NavDropdown} from 'react-bootstrap';
+import {Jumbotron, Container, Navbar, Button, Row, Col, Card, ButtonGroup, Image, Nav} from 'react-bootstrap';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGraduationCap, faHandshake, faHandHoldingUsd } from '@fortawesome/free-solid-svg-icons'
@@ -163,6 +163,28 @@ function App() {
                 </blockquote>
               </Card.Body>
           </Card>
+        </Col>
+      </Row>
+    </Container>
+    <Container fluid id="svi-footer">
+      <Row>
+        <Col>
+          <div className="svi-section-header">
+            <h1>Ready to be rich?</h1>
+            <h2>Let's get in touch.</h2>
+            <br></br>
+            <Button variant="outline-light" size="lg">Learn more</Button>
+          </div>
+        </Col>
+      </Row>
+      <Row>
+        <Col>
+          <p>Check us out on social media!</p>
+          <ButtonGroup aria-label="Social Buttons">
+            <Button variant="secondary"><FontAwesomeIcon icon={faGraduationCap}/></Button>
+            <Button variant="secondary">Middle</Button>
+            <Button variant="secondary">Right</Button>
+          </ButtonGroup>
         </Col>
       </Row>
     </Container>
