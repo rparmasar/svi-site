@@ -4,8 +4,11 @@
   padding: 0;
 }
 
-body{
-  overflow-x: hidden;
+html, body {
+  /* overflow-x: hidden; */
+}
+body {
+  position: relative
 }
 
 .jumbotron {
@@ -29,10 +32,11 @@ body{
   height: auto;
 }
 
-#svi-nav{
+.svi-nav{
   background-color: #1b1c1e;
-  position: sticky;
-  top: 0;
+  position: sticky !important; 
+  top: 0 !important;
+  z-index: 1020 !important;
 }
 
 

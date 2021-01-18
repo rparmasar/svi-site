@@ -13,8 +13,7 @@ import logo from "./assets/SVILogoUpdatedColours.svg";
 function App() {
   return (
     <div className="App">
-     <div className="svi-nav-wrapper">
-        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" id="svi-nav" sticky="top">
+        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" className="svi-nav" sticky="top">
             <Navbar.Brand href="#home">
               <img
                 src={logo}
@@ -26,7 +25,7 @@ function App() {
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
-            <Nav className="mr-auto">
+            <Nav className="w-100 nav-justified">
               <Nav.Link href="#svi-services-container">Our Services</Nav.Link>
               <Nav.Link href="#svi-vision-jumbo">Our Vision</Nav.Link>
               <Nav.Link href="#svi-vision-jumbo">About Us</Nav.Link>
@@ -34,7 +33,6 @@ function App() {
             </Nav>
             </Navbar.Collapse>
         </Navbar>
-     </div>
      <Jumbotron fluid>
         <Container>
           <div id="svi-cover-jumbo-text">
