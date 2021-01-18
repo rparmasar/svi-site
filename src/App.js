@@ -1,19 +1,20 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import {Jumbotron, Container, Navbar, Button, Row, Col, Card, ButtonGroup, Image, Nav} from 'react-bootstrap';
+import {Jumbotron, Container, Navbar, Button, Row, Col, Card, ButtonGroup, Image, Nav, Carousel} from 'react-bootstrap';
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGraduationCap, faHandshake, faHandHoldingUsd } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGraduationCap, faHandshake, faHandHoldingUsd } from '@fortawesome/free-solid-svg-icons';
+import { faFacebook, faInstagram, faYoutube } from "@fortawesome/free-brands-svg-icons";
+
 
 import aboutusthumbnail from "./assets/bgvision.png"
-import jumbobg from "./assets/bglandingpage.jpg";
 import logo from "./assets/SVILogoUpdatedColours.svg";
 
 function App() {
   return (
     <div className="App">
-        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" className="svi-nav" sticky="top">
+        <Navbar collapseOnSelect expand="lg" variant="dark" className="svi-nav" sticky="top">
             <Navbar.Brand href="#svi-cover-jumbo">
               <img
                 src={logo}
@@ -117,72 +118,87 @@ function App() {
         </Col>
       </Row>
       <Row>
-        <Col md={4}>
-          <Card>
-              <Card.Body>
-                <blockquote className="blockquote mb-0 svi-testimonial">
-                  <p>
-                    {' '}
-                    SV Investments got me ROI of 20% from a joint venturing project in April 2020. Their exceptional service made the entire process enjoyable even during the pandemic.{' '}
-                  </p>
-                  <footer className="blockquote-footer">
-                    Rajeev
-                  </footer>
-                </blockquote>
-              </Card.Body>
-          </Card>
-        </Col>
-        <Col md={4}>
-        <Card>
-              <Card.Body>
-                <blockquote className="blockquote mb-0 svi-testimonial">
-                  <p>
-                    {' '}
-                    SV Investments got me ROI of 20% from a joint venturing project in April 2020. Their exceptional service made the entire process enjoyable even during the pandemic.{' '}
-                  </p>
-                  <footer className="blockquote-footer">
-                    Rajeev
-                  </footer>
-                </blockquote>
-              </Card.Body>
-          </Card>
-        </Col>
-        <Col md={4}>
-        <Card>
-              <Card.Body>
-                <blockquote className="blockquote mb-0 svi-testimonial">
-                  <p>
-                    {' '}
-                    SV Investments got me ROI of 20% from a joint venturing project in April 2020. Their exceptional service made the entire process enjoyable even during the pandemic.{' '}
-                  </p>
-                  <footer className="blockquote-footer">
-                    Rajeev
-                  </footer>
-                </blockquote>
-              </Card.Body>
-          </Card>
+        <Col>
+          <Carousel id="svi-testimonials-carousel">
+            <Carousel.Item>
+              <Card>
+                <Card.Body>
+                  <blockquote className="blockquote mb-0">
+                    <p className="svi-testimonials-slide-text">
+                      {' '}
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget neque vulputate, mattis lectus at, euismod sem. Aliquam molestie sem eu vehicula ornare. Etiam eu ex ex. Aliquam varius, tellus rutrum sagittis sodales, mauris dolor rhoncus nisi, ut tincidunt ante.{' '}
+                    </p>
+                    <footer className="blockquote-footer">
+                      Someone famous in <cite title="Source Title">Source Title</cite>
+                    </footer>
+                  </blockquote>
+                </Card.Body>
+              </Card>
+            </Carousel.Item>
+            <Carousel.Item>
+              <Card>
+                <Card.Body>
+                  <blockquote className="blockquote mb-0">
+                    <p className="svi-testimonials-slide-text">
+                      {' '}
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget neque vulputate, mattis lectus at, euismod sem. Aliquam molestie sem eu vehicula ornare. Etiam eu ex ex. Aliquam varius, tellus rutrum sagittis sodales, mauris dolor rhoncus nisi, ut tincidunt ante.{' '}
+                    </p>
+                    <footer className="blockquote-footer">
+                      Someone famous in <cite title="Source Title">Source Title</cite>
+                    </footer>
+                  </blockquote>
+                </Card.Body>
+              </Card>
+            </Carousel.Item>
+            <Carousel.Item>
+              <Card>
+                <Card.Body>
+                  <blockquote className="blockquote mb-0">
+                    <p className="svi-testimonials-slide-text">
+                      {' '}
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget neque vulputate, mattis lectus at, euismod sem. Aliquam molestie sem eu vehicula ornare. Etiam eu ex ex. Aliquam varius, tellus rutrum sagittis sodales, mauris dolor rhoncus nisi, ut tincidunt ante.{' '}
+                    </p>
+                    <footer className="blockquote-footer">
+                      Someone famous in <cite title="Source Title">Source Title</cite>
+                    </footer>
+                  </blockquote>
+                </Card.Body>
+              </Card>
+            </Carousel.Item>
+          </Carousel>
         </Col>
       </Row>
     </Container>
     <Container fluid id="svi-footer">
       <Row>
         <Col>
-          <div className="svi-section-header">
+          <div id="svi-footer-tagline-text">
             <h1>Ready to be rich?</h1>
-            <h2>Let's get in touch.</h2>
-            <br></br>
-            <Button variant="outline-light" size="lg">Learn more</Button>
+            <h4>Let's get in touch.</h4>
           </div>
+          <Button variant="outline-light" size="lg">Learn more</Button>
         </Col>
       </Row>
       <Row>
         <Col>
-          <p>Check us out on social media!</p>
-          <ButtonGroup aria-label="Social Buttons">
-            <Button variant="secondary"><FontAwesomeIcon icon={faGraduationCap}/></Button>
-            <Button variant="secondary">Middle</Button>
-            <Button variant="secondary">Right</Button>
-          </ButtonGroup>
+          <div id="svi-footer-socialmedia-text">
+            <h4>
+              Check us out on social media!
+            </h4>
+          </div>
+          <div id="svi-footer-socialmedia-links">
+            <ButtonGroup aria-label="Basic example">
+              <Button id="svi-fb-btn" variant="secondary" size="lg">
+                <FontAwesomeIcon icon={faFacebook} />
+              </Button>
+              <Button id="svi-ig-btn" variant="secondary" size="lg">
+                <FontAwesomeIcon icon={faInstagram} />
+              </Button>
+              <Button id="svi-yt-btn" variant="secondary" size="lg">
+                <FontAwesomeIcon icon={faYoutube} />
+              </Button>
+            </ButtonGroup>
+        </div>
         </Col>
       </Row>
     </Container>

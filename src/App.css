@@ -35,12 +35,15 @@ body {
 }
 
 .svi-nav{
-  background-color: #1b1c1e;
+  background-color: #1b1c1e !important;
   position: sticky !important; 
   top: 0 !important;
   z-index: 1020 !important;
 }
 
+.nav-link{
+  color: #f0f0f0 !important;
+}
 
 .svi-section-header{
   text-align: center;
@@ -48,10 +51,20 @@ body {
   padding-bottom: 2%;
 }
 
+.svi-section-header:after {
+  content: '';
+  height: 2px;
+  width: 15vw;
+  text-align: center;
+  background: #5bc0eb; 
+  display: inline-block;
+}
+
 #svi-services-container{
   background-color: #f0f0f0;
   padding-top: 2%;
   padding-bottom: 2%;
+  color: #1b1c1e;
 }
 
 
@@ -79,6 +92,35 @@ body {
   align-content:center;
   align-items:center;
   text-align: center;
+  background-color: #f0f0f0;
+  color: #1b1c1e;
+}
+
+#svi-testimonials-container{
+  background-color:#f0f0f0;
+  padding-bottom: 5%;
+}
+
+.carousel-indicators{
+  transform: translateY(60%);
+}
+
+.carousel-indicators li{
+  background-color: #1b1c1e !important;
+}
+
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%231b1c1e' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+ }
+ 
+ .carousel-control-next-icon {
+   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%231b1c1e' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+ }
+
+.svi-testimonials-slide-text{
+  padding-top: 2%;
+  margin-left: 10%;
+  margin-right: 10%
 }
 
 #svi-footer{
@@ -90,8 +132,40 @@ body {
   text-align: center;
 }
 
-#svi-footer-copyright-text{
-  padding-top: 5%;
-  line-height: 0.5;
-  color: #6c757d;
+#svi-footer-tagline-text{
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+#svi-footer-socialmedia-text{
+  padding-top: 2%;
+}
+
+#svi-footer-socialmedia-links{
+  padding-bottom: 2%;
+}
+@media screen and (max-width: 576px){
+  #svi-footer-socialmedia-links{
+    padding-bottom: 10%;
+    padding-top: 2%;
+  }
+}
+
+#svi-fb-btn{
+  background-color: #3B5998;
+  border: none;
+}
+
+#svi-ig-btn{
+  background: #f09433; 
+  background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+  background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+  background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+  border: none;
+}
+
+#svi-yt-btn{
+  background: #bb0000;
+  border: none;
 }
