@@ -6,6 +6,7 @@
 
 html {
   scroll-padding-top: 56px;
+  overflow-x: hidden;
 }
 body {
   position: relative;
