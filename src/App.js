@@ -14,7 +14,7 @@ function App() {
   return (
     <div className="App">
         <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" className="svi-nav" sticky="top">
-            <Navbar.Brand href="#home">
+            <Navbar.Brand href="#svi-cover-jumbo">
               <img
                 src={logo}
                 width="70"
@@ -28,12 +28,12 @@ function App() {
             <Nav className="w-100 nav-justified">
               <Nav.Link href="#svi-services-container">Our Services</Nav.Link>
               <Nav.Link href="#svi-vision-jumbo">Our Vision</Nav.Link>
-              <Nav.Link href="#svi-vision-jumbo">About Us</Nav.Link>
-              <Nav.Link href="#svi-vision-jumbo">Our Customers</Nav.Link>
+              <Nav.Link href="#svi-aboutus">About Us</Nav.Link>
+              <Nav.Link href="#svi-testimonials-container">Our Customers</Nav.Link>
             </Nav>
             </Navbar.Collapse>
         </Navbar>
-     <Jumbotron fluid>
+     <Jumbotron fluid id="svi-cover-jumbo">
         <Container>
           <div id="svi-cover-jumbo-text">
             <h1>We help our investors secure their financial futures through real estate.</h1>

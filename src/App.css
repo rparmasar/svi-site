@@ -4,11 +4,11 @@
   padding: 0;
 }
 
-html, body {
-  /* overflow-x: hidden; */
+html {
+  scroll-padding-top: 56px;
 }
 body {
-  position: relative
+  position: relative;
 }
 
 .jumbotron {
@@ -28,8 +28,9 @@ body {
 
 #svi-vision-jumbo{
   background-image: url("./assets/bgskyscrapers.jpg");
-  align-items: flex-start;
+  align-items: center;
   height: auto;
+  height: 75vh;
 }
 
 .svi-nav{
@@ -51,6 +52,7 @@ body {
   padding-top: 2%;
   padding-bottom: 2%;
 }
+
 
 .svg-inline--fa {
   margin-right: 2%;
