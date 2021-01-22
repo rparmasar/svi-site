@@ -34,6 +34,10 @@ body {
   height: 75vh;
 }
 
+#svi-vision-text{
+  font-size: 18px;
+}
+
 .svi-nav{
   background-color: #1b1c1e !important;
   position: sticky !important; 
@@ -84,8 +88,14 @@ body {
   border: none;
 }
 
-#svi-aboutus-text{
+.svi-aboutus-text{
   text-align: center;
+}
+
+@media screen and (min-width: 768px){
+  .svi-aboutus-text{
+    text-align: left;
+  }
 }
 
 #svi-aboutus{
@@ -148,6 +158,9 @@ body {
   #svi-footer-socialmedia-links{
     padding-bottom: 10%;
     padding-top: 2%;
+  }
+  #svi-services-container{
+    padding-bottom: 10%;
   }
 }
 

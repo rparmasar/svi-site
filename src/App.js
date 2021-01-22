@@ -59,7 +59,7 @@ function App() {
               <Card.Title>
                 <FontAwesomeIcon icon={faHandshake} />Joint Venturing
               </Card.Title>
-              <Card.Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ac molestie est. In venenatis congue metus venenatis placerat. Sed lacinia dictum finibus. Quisque eu ligula est. Vivamus ac orci sit amet metus hendrerit tempor. Vestibulum sed condimentum est, a auctor.</Card.Text>
+              <Card.Text>You provide the funding and we manage it all and share the profits. </Card.Text>
             </Card.Body>
         </Col>
         <Col md={4}>
@@ -67,7 +67,7 @@ function App() {
               <Card.Title>
                 <FontAwesomeIcon icon={faHandHoldingUsd} />Private Lending
               </Card.Title>
-              <Card.Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ac molestie est. In venenatis congue metus venenatis placerat. Sed lacinia dictum finibus. Quisque eu ligula est. Vivamus ac orci sit amet metus hendrerit tempor. Vestibulum sed condimentum est, a auctor.</Card.Text>
+              <Card.Text>Passive investing with great returns – sit back and watch your money grow! </Card.Text>
             </Card.Body>
         </Col>
         <Col md={4}>
@@ -76,7 +76,7 @@ function App() {
                 <FontAwesomeIcon icon={faGraduationCap} />
                 Mentorship
               </Card.Title>
-              <Card.Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ac molestie est. In venenatis congue metus venenatis placerat. Sed lacinia dictum finibus. Quisque eu ligula est. Vivamus ac orci sit amet metus hendrerit tempor. Vestibulum sed condimentum est, a auctor.</Card.Text>
+              <Card.Text>Our Hold Your Hand program helps you every step of the way in owning your first property while teaching you it all!</Card.Text>
             </Card.Body>
         </Col>
       </Row>
@@ -85,7 +85,7 @@ function App() {
         <Container>
           <div id="svi-vision-jumbo-text">
             <h1>Our Vision</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rhoncus est eu ligula dictum sollicitudin. Suspendisse ut ligula sed quam hendrerit rutrum eget cursus nibh. Sed vitae lectus non nisi convallis ullamcorper. Mauris suscipit arcu fringilla ex hendrerit, vel facilisis leo mattis. Nam ac erat sed purus fringilla aliquet accumsan a mi. In auctor, purus ac tincidunt consequat, enim turpis.</p>
+            <p id="svi-vision-text">Our vision is to build a strong network on the foundation of trust and fairness ensuring everyone that invests with us has an opportunity to earn and grow with full confidence. Our investors comes first and we work diligently to ensure your satisfaction so we can grow together over the long term.</p>
           </div>
         </Container>
     </Jumbotron>
@@ -105,7 +105,14 @@ function App() {
         </Col>
         <Col>
         {/* 100 Words */}
-          <p id="svi-aboutus-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultrices arcu at velit ultrices suscipit sed suscipit ipsum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec eu viverra turpis, sit amet auctor elit. Sed sit amet ante fermentum massa fermentum consectetur. Vivamus ultrices at elit at fringilla. Nulla in arcu massa. Quisque fermentum, lectus sed tristique lacinia, felis ipsum maximus arcu, id volutpat arcu ex quis justo. Fusce iaculis nisl lacus, efficitur egestas nunc vulputate at. Etiam nec commodo mi, in auctor erat. Fusce aliquet nulla tellus, nec molestie diam lacinia at. Aliquam luctus.</p>
+          <p className="svi-aboutus-text">ShanVish Investments was created to build a secure future that relies on hard work and perseverance in securing our financial freedom together allowing our investors to help them achieve their financial and lifestyle goals.
+          </p>
+          <p className="svi-aboutus-text">
+          We believe we live in one of the best countries in the world that has the amazing ability to reward everyone that wants a better financial future to achieve it. We have to take the bold step to invest and real estate is our area of expertise and we have the team to win!
+          </p>
+          <p className="svi-aboutus-text">
+          Our company is built on the foundation of shared success, the successful you are the more successful we are.
+          </p>
         </Col>
       </Row>
     </Container>
@@ -126,10 +133,10 @@ function App() {
                   <blockquote className="blockquote mb-0">
                     <p className="svi-testimonials-slide-text">
                       {' '}
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget neque vulputate, mattis lectus at, euismod sem. Aliquam molestie sem eu vehicula ornare. Etiam eu ex ex. Aliquam varius, tellus rutrum sagittis sodales, mauris dolor rhoncus nisi, ut tincidunt ante.{' '}
+                      I’ve been investing with Mitch and Gai for many years now and we’ve had some amazing deals and profits and I look forward to continuing to work with them. I am not only a realtor but I JV with my own money working with Mitch and Gai as they are a great people to work with.{' '}
                     </p>
                     <footer className="blockquote-footer">
-                      Someone famous in <cite title="Source Title">Source Title</cite>
+                      Junaid Abbasi
                     </footer>
                   </blockquote>
                 </Card.Body>
