@@ -105,8 +105,8 @@ body {
     padding-right: 5%;
   }
   #svi-nav-btn{
-    padding-bottom: 0;
     font-size: 1rem;
+    padding: .375rem .75rem;
   }
 }
 
