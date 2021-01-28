@@ -98,6 +98,13 @@ body {
   }
 }
 
+@media screen and (min-width: 992px){
+  #svi-aboutus{
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
+
 #svi-aboutus{
   align-content:center;
   align-items:center;
@@ -160,6 +167,9 @@ body {
     padding-top: 2%;
   }
   #svi-services-container{
+    padding-bottom: 10%;
+  }
+  #svi-aboutus-thumbnail{
     padding-bottom: 10%;
   }
 }

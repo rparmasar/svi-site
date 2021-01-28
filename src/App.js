@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import {Jumbotron, Container, Navbar, Button, Row, Col, Card, ButtonGroup, Image, Nav, Carousel} from 'react-bootstrap';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGraduationCap, faHandshake, faHandHoldingUsd } from '@fortawesome/free-solid-svg-icons';
+import { faGraduationCap, faHandshake, faHandHoldingUsd, faCity } from '@fortawesome/free-solid-svg-icons';
 import { faFacebook, faInstagram, faYoutube } from "@fortawesome/free-brands-svg-icons";
 
 
@@ -54,7 +54,7 @@ function App() {
         </Col>
       </Row>
       <Row>
-        <Col md={4}>
+        <Col md={6}>
           <Card.Body>
               <Card.Title>
                 <FontAwesomeIcon icon={faHandshake} />Joint Venturing
@@ -62,21 +62,30 @@ function App() {
               <Card.Text>You provide the funding and we manage it all and share the profits. </Card.Text>
             </Card.Body>
         </Col>
-        <Col md={4}>
+        <Col md={6}>
           <Card.Body>
               <Card.Title>
-                <FontAwesomeIcon icon={faHandHoldingUsd} />Private Lending
+                <FontAwesomeIcon icon={faCity} />
+                Commerical Buildings
               </Card.Title>
-              <Card.Text>Passive investing with great returns – sit back and watch your money grow! </Card.Text>
+              <Card.Text>Join the exciting market of Commerical-Residential Real Estate investing.</Card.Text>
             </Card.Body>
         </Col>
-        <Col md={4}>
+        <Col md={6}>
           <Card.Body>
               <Card.Title>
                 <FontAwesomeIcon icon={faGraduationCap} />
                 Mentorship
               </Card.Title>
               <Card.Text>Our Hold Your Hand program helps you every step of the way in owning your first property while teaching you it all!</Card.Text>
+            </Card.Body>
+        </Col>
+        <Col md={6}>
+            <Card.Body>
+              <Card.Title>
+                <FontAwesomeIcon icon={faHandHoldingUsd} />Private Lending
+              </Card.Title>
+              <Card.Text>Passive investing with great returns – sit back and watch your money grow! </Card.Text>
             </Card.Body>
         </Col>
       </Row>
