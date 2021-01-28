@@ -27,6 +27,7 @@ body {
   margin-bottom: 0 !important;
 }
 
+
 #svi-vision-jumbo{
   background-image: url("./assets/bgskyscrapers.jpg");
   align-items: center;
@@ -103,6 +104,10 @@ body {
     padding-left: 5%;
     padding-right: 5%;
   }
+  #svi-nav-btn{
+    padding-bottom: 0;
+    font-size: 1rem;
+  }
 }
 
 #svi-aboutus{
@@ -171,6 +176,15 @@ body {
   }
   #svi-aboutus-thumbnail{
     padding-bottom: 10%;
+  }
+  #svi-nav-btn{
+    margin-top: 5%;
+  }
+}
+
+@media screen and (max-width:768px) and (min-width:576px){
+  #svi-nav-btn{
+    margin-top: 2%;
   }
 }
 

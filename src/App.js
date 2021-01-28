@@ -31,6 +31,7 @@ function App() {
               <Nav.Link href="#svi-vision-jumbo">Our Vision</Nav.Link>
               <Nav.Link href="#svi-aboutus">About Us</Nav.Link>
               <Nav.Link href="#svi-testimonials-container">Our Customers</Nav.Link>
+              <Button id="svi-nav-btn"variant="outline-light" size="sm" href="https://calendly.com/sv-investment/discovery-call" target="_blank">Get Started</Button>
             </Nav>
             </Navbar.Collapse>
         </Navbar>
@@ -40,7 +41,7 @@ function App() {
             <h1>We help our investors secure their financial futures through real estate.</h1>
             <br></br>
             <p>
-              <Button variant="outline-light" size="lg">Learn more</Button>
+              <Button variant="outline-light" size="lg" href="https://calendly.com/sv-investment/discovery-call" target="_blank">Get Started</Button>
             </p>
           </div>
         </Container>
@@ -192,7 +193,7 @@ function App() {
             <h1>Ready to be rich?</h1>
             <h4>Let's get in touch.</h4>
           </div>
-          <Button variant="outline-light" size="lg">Learn more</Button>
+          <Button variant="outline-light" size="lg" href="https://calendly.com/sv-investment/discovery-call" target="_blank">Get Started</Button>
         </Col>
       </Row>
       <Row>
