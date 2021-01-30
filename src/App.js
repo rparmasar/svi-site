@@ -8,7 +8,7 @@ import { faGraduationCap, faHandshake, faHandHoldingUsd, faCity } from '@fortawe
 import { faFacebook, faInstagram, faYoutube } from "@fortawesome/free-brands-svg-icons";
 
 
-import aboutusthumbnail from "./assets/bgvision.png"
+import aboutusthumbnail from "./assets/MitchParmasarProfilePic-RBfeb1420v1.png"
 import logo from "./assets/SVILogoUpdatedColours.svg";
 
 function App() {
@@ -111,6 +111,7 @@ function App() {
         <Col xs={12} md={6}>
           <div id="svi-aboutus-thumbnail">
             <Image src={aboutusthumbnail} thumbnail />
+            <p>Mitch Parmasar: Real Estate Investor</p>
           </div>
         </Col>
         <Col>
