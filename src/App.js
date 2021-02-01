@@ -5,7 +5,7 @@ import {Jumbotron, Container, Navbar, Button, Row, Col, Card, ButtonGroup, Image
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGraduationCap, faHandshake, faHandHoldingUsd, faCity } from '@fortawesome/free-solid-svg-icons';
-import { faFacebook, faInstagram, faYoutube } from "@fortawesome/free-brands-svg-icons";
+import { faFacebook, faInstagram, faYoutube, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 
 import aboutusthumbnail from "./assets/MitchParmasarProfilePic-RBfeb1420v1.png"
@@ -159,10 +159,10 @@ function App() {
                   <blockquote className="blockquote mb-0">
                     <p className="svi-testimonials-slide-text">
                       {' '}
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget neque vulputate, mattis lectus at, euismod sem. Aliquam molestie sem eu vehicula ornare. Etiam eu ex ex. Aliquam varius, tellus rutrum sagittis sodales, mauris dolor rhoncus nisi, ut tincidunt ante.{' '}
+                      Mitch is a thoughtful investor and has always ensured we make the right choice to make money in our transactions.{' '}
                     </p>
                     <footer className="blockquote-footer">
-                      Someone famous in <cite title="Source Title">Source Title</cite>
+                      Joe Rodriguez
                     </footer>
                   </blockquote>
                 </Card.Body>
@@ -174,10 +174,10 @@ function App() {
                   <blockquote className="blockquote mb-0">
                     <p className="svi-testimonials-slide-text">
                       {' '}
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget neque vulputate, mattis lectus at, euismod sem. Aliquam molestie sem eu vehicula ornare. Etiam eu ex ex. Aliquam varius, tellus rutrum sagittis sodales, mauris dolor rhoncus nisi, ut tincidunt ante.{' '}
+                      Real Estate is can be quite confusing at time especially when you're new at it. Happy to have worked with Mitch and the process was made so much easier.{' '}
                     </p>
                     <footer className="blockquote-footer">
-                      Someone famous in <cite title="Source Title">Source Title</cite>
+                      Sam Ramrattan
                     </footer>
                   </blockquote>
                 </Card.Body>
@@ -211,6 +211,9 @@ function App() {
               </Button>
               <Button id="svi-ig-btn" variant="secondary" size="lg">
                 <FontAwesomeIcon icon={faInstagram} />
+              </Button>
+              <Button id="svi-linkedin-btn" variant="secondary" size="lg">
+                <FontAwesomeIcon icon={faLinkedin} />
               </Button>
               <Button id="svi-yt-btn" variant="secondary" size="lg">
                 <FontAwesomeIcon icon={faYoutube} />
