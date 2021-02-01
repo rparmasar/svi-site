@@ -122,7 +122,7 @@ function App() {
           We believe we live in one of the best countries in the world that has the amazing ability to reward everyone that wants a better financial future to achieve it. We have to take the bold step to invest and real estate is our area of expertise and we have the team to win!
           </p>
           <p className="svi-aboutus-text">
-          Our company is built on the foundation of shared success, the successful you are the more successful we are.
+          Our company is built on the foundation of shared success, the more successful you are the more successful we are.
           </p>
         </Col>
       </Row>
